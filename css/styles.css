@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text_muted {
+  color: #a18ffc;
+}
+
+.container_div {
+  width: 100%;
+  display: table;
+  height: 100%;
+}
+
+.summary_parent {
+  height: 450px;
+  width: 60%;
+  display: table-cell;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+  box-shadow: 10px 15px 5px #f7f8fd;
+}
+.display_flex {
+  display: flex;
+  height: 100%;
+  /* box-shadow: 10px 15px 5px #f7f8fd; */
+}
+.result_card {
+  width: 50%;
+  height: 100%;
+  background-color: #6040fd;
+  color: white;
+  border-radius: 30px;
+}
+.summary_card {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+.text_result {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.blue_circle {
+  background: rgb(73, 37, 207);
+  background: linear-gradient(
+    90deg,
+    rgba(73, 37, 207, 1) 50.14%,
+    rgba(68, 50, 236, 1) 152.27%
+  );
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.text_76 {
+  font-size: 70px;
+}
+.text_great {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.text_explan {
+  color: #8d8beb;
+  font-size: 20px;
+  width: 60%;
+  margin: 30px auto;
+}
+
+/* Summary Card */
+.summary_card {
+  padding: 35px;
+  /* background-color: #d17371; */
+  box-shadow: 10px 15px 5px #f7f8fd;
+  border-radius: 30px;
+}
+
+.summary_card_head {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.tablet1 {
+  margin-top: 25px;
+  background-color: #fff6f5;
+  height: 50px;
+  border-radius: 10px;
+  padding: auto 22px;
+}
+.tablet2 {
+  margin-top: 15px;
+  background-color: #fffbf2;
+  height: 50px;
+  border-radius: 10px;
+  padding: auto 22px;
+}
+.tablet3 {
+  margin-top: 15px;
+  background-color: #f3fbfa;
+  height: 50px;
+  border-radius: 10px;
+  padding: auto 22px;
+}
+.tablet4 {
+  margin-top: 15px;
+  background-color: #f3f3fd;
+  height: 50px;
+  border-radius: 10px;
+  padding: auto 22px;
+}
+.button {
+  margin-top: 40px;
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  border-radius: 50px;
+  padding: auto 22px;
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+  text-align: center;
+}
+.tablet_content {
+  display: flex;
+  justify-content: space-between;
+}
+.tablet_content_text1,
+.tablet_content_text2 {
+  margin: 16px 15px;
+}
+
+.color-red {
+  color: #d17371;
+  font-weight: bold;
+}
+.color-yellow {
+  color: #f2d184;
+  font-weight: bold;
+}
+.color-green {
+  color: #46a28e;
+  font-weight: bold;
+}
+.color-blue {
+  color: #3948b9;
+  font-weight: bold;
+}
+.color-gray {
+  color: #b2b1af;
+  font-weight: light;
+}
+
+.tablet_content_text2 span {
+  font-weight: bold;
+}
+
+/* Phone  */
+@media screen and (max-width: 425px) and (min-width: 1px) {
+  .display_flex {
+    display: block;
+  }
+  .summary_parent {
+    width: 100%;
+    top: 56;
+    left: 0;
+  }
+
+  .summary_card {
+    width: 100%;
+  }
+
+  .result_card {
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+  }
+  .text_result {
+    padding-top: 40px;
+  }
+}
+
+/* Tablet  */
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .summary_parent {
+    top: 100;
+    left: 2%;
+    width: 100%;
+  }
+}
+
+/* Laptop  */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+}
